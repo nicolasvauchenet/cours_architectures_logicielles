@@ -1,8 +1,10 @@
 # Le Conte du Royaume du Code
 
-![conte du royaume du code.png](../img/conte%20du%20royaume%20du%20code.png)
+![conte du royaume du code.png](https://raw.githubusercontent.com/nicolasvauchenet/cours_architectures_logicielles/refs/heads/main/img/conte%20du%20royaume%20du%20code.png)
 
 ## Chapitre I – Les temps primitifs (années 40–60)
+
+![chapitre I.png](https://raw.githubusercontent.com/nicolasvauchenet/cours_architectures_logicielles/refs/heads/main/img/chapitre%20I.png)
 
 À l’aube des temps numériques, seuls quelques initiés comprenaient la langue des machines : une suite de `0` et de `1`
 sans poésie apparente, mais porteuse d’une immense puissance. Les premiers héros, **Alan Turing** avec sa machine
@@ -16,11 +18,13 @@ Le problème, c’est que le moindre changement exigeait de tout reconstruire : 
 machine, et le couplage si fort qu’un seul détail pouvait faire s’effondrer l’ensemble. Les bâtisseurs passaient plus
 de temps à jongler avec des registres et des adresses mémoire qu’à concevoir des solutions durables.
 
-> Moralité : la puissance brute existe, mais la maintenabilité manque.
+> La puissance brute existe, mais la maintenabilité manque.
 
 ---
 
 ## Chapitre II – Le Bâtisseur C (années 70)
+
+![chapitre II.png](https://raw.githubusercontent.com/nicolasvauchenet/cours_architectures_logicielles/refs/heads/main/img/chapitre%20II.png)
 
 Dans les années 70, un artisan visionnaire, **Dennis Ritchie**, inventa le langage **C** au sein des laboratoires Bell.
 Son compagnon **Ken Thompson** l’adopta aussitôt pour ériger **UNIX** (1972), un système d’exploitation appelé à devenir
@@ -35,11 +39,13 @@ L’avantage de **C** résidait dans son efficacité et dans le contrôle préci
 puissance avait un prix : tout restait manuel, et la moindre erreur, comme un simple pointeur mal géré, pouvait faire
 s’écrouler le château entier.
 
-> Moralité : **C** donna la robustesse, mais exigea discipline et rigueur.
+> **C** donna la robustesse, mais exigea discipline et rigueur.
 
 ---
 
 ## Chapitre III – L’Ordre des Objets (années 80–90)
+
+![chapitre III.png](https://raw.githubusercontent.com/nicolasvauchenet/cours_architectures_logicielles/refs/heads/main/img/chapitre%20III.png)
 
 Au tournant des années 80, des artisans rêvèrent d’un monde plus organisé. **Alan Kay** parla de **Smalltalk**, un
 langage où des “objets” pouvaient communiquer entre eux comme des êtres vivants. Chaque objet avait une identité, des
@@ -57,11 +63,13 @@ familles et favorisait la réutilisation ; et **le polymorphisme**, qui donnait 
 Cette approche permit aux programmes de devenir plus modulaires et réutilisables. Mais elle avait aussi ses limites :
 l’excès de hiérarchies, les classes trop nombreuses et parfois un code devenu rigide à force de vouloir tout organiser.
 
-> Moralité : les objets apportaient de l’ordre, mais risquaient de transformer les projets en bureaucraties compliquées.
+> Les objets apportaient de l’ordre, mais risquaient de transformer les projets en bureaucraties compliquées.
 
 ---
 
 ## Chapitre IV – Le Cartographe UML (années 90)
+
+![chapitre IV.png](https://raw.githubusercontent.com/nicolasvauchenet/cours_architectures_logicielles/refs/heads/main/img/chapitre%20IV.png)
 
 Alors que les citadelles de code grandissaient, il devint de plus en plus difficile de s’y retrouver. Trois sages,
 **Grady Booch**, **James Rumbaugh** et **Ivar Jacobson**, décidèrent d’unifier leurs méthodes et créèrent en 1997
@@ -76,11 +84,13 @@ Ces cartes facilitèrent la communication entre architectes, développeurs et d�
 conduisit parfois à des travers : les rouleaux de diagrammes devenaient si nombreux et si complexes que plus personne ne
 les lisait. Certains projets croulèrent sous le poids de la documentation.
 
-> Moralité : cartographier est utile, mais il ne faut jamais oublier que le plan n’est pas le territoire.
+> Cartographier est utile, mais il ne faut jamais oublier que le plan n’est pas le territoire.
 
 ---
 
 ## Chapitre V – Les Châteaux Monolithes (années 90–2000)
+
+![chapitre V.png](https://raw.githubusercontent.com/nicolasvauchenet/cours_architectures_logicielles/refs/heads/main/img/chapitre%20V.png)
 
 À mesure que l’industrie grandissait, les entreprises réclamèrent des systèmes toujours plus vastes : **ERP**, **CRM**,
 sites d’e-commerce. On bâtit alors des **Monolithes** : de gigantesques châteaux regroupant toutes les fonctions sous un
@@ -96,18 +106,19 @@ frameworks comme **Spring** (2003) ou **ASP.NET** structurèrent davantage la ma
 L’avantage des Monolithes résidait dans leur cohérence et dans la simplicité d’un déploiement unique. Mais leur rigidité
 était un problème majeur : modifier une seule salle imposait souvent de rénover l’ensemble du château.
 
-> Moralité : le monolithe était fort et stable, mais manquait cruellement de souplesse.
+> Le monolithe était fort et stable, mais manquait cruellement de souplesse.
 
 ---
 
 ## Chapitre VI – Les Patterns des Sages (1994 et après)
 
+![chapitre VI.png](https://raw.githubusercontent.com/nicolasvauchenet/cours_architectures_logicielles/refs/heads/main/img/chapitre%20VI.png)
+
 En 1994, quatre conteurs surnommés le **Gang of Four** – **Erich Gamma**, **Richard Helm**, **Ralph Johnson** et
 **John Vlissides** – publièrent le grimoire des **Design Patterns**.
 
 Ils y consignàrent des recettes intemporelles pour résoudre des problèmes récurrents : le **Singleton**, roi unique
-mais
-souvent tyrannique ; l’**Observer**, un crieur public avertissant tout le monde en cas de nouvelle ; la **Factory
+mais souvent tyrannique ; l’**Observer**, un crieur public avertissant tout le monde en cas de nouvelle ; la **Factory
 Method**, un atelier produisant des objets à la chaîne ; le **Decorator**, tailleur habillant les objets à la demande ;
 la **Strategy**, général changeant de plan de bataille selon la situation ; ou encore la **Chain of Responsibility**,
 où des scribes se passaient les requêtes jusqu’à trouver celui qui pouvait y répondre.
@@ -116,11 +127,13 @@ Ces patterns permirent de transmettre le savoir-faire et de rendre le code plus 
 aussi un revers : certains apprentis voulurent les appliquer partout, même là où ils n’étaient pas nécessaires, ce qui
 compliqua inutilement leurs projets.
 
-> Moralité : un pattern est un outil précieux, mais il ne sert que si le problème existe réellement.
+> Un pattern est un outil précieux, mais il ne sert que si le problème existe réellement.
 
 ---
 
 ## Chapitre VII – La Sagesse du Domaine (2003)
+
+![chapitre VII.png](https://raw.githubusercontent.com/nicolasvauchenet/cours_architectures_logicielles/refs/heads/main/img/chapitre%20VII.png)
 
 En 2003, un nouveau maître, **Eric Evans**, publia un ouvrage bleu intitulé *Domain-Driven Design*. Sa philosophie était
 simple : l’architecture devait servir le métier, et non l’inverse.
@@ -133,21 +146,21 @@ Cette approche remit le sens au cœur de la construction logicielle. Elle inspir
 Query Responsibility Segregation) et **Event Sourcing**, qui allaient influencer durablement l’architecture des
 systèmes.
 
-> Moralité : l’architecture ne doit jamais dicter le métier, mais au contraire s’y adapter et le refléter.
+> L’architecture ne doit jamais dicter le métier, mais au contraire s’y adapter et le refléter.
 
 ---
 
 ## Chapitre VIII – Les Villages de Microservices (années 2010)
 
+![chapitre VIII.png](https://raw.githubusercontent.com/nicolasvauchenet/cours_architectures_logicielles/refs/heads/main/img/chapitre%20VIII.png)
+
 Dans les années 2010, lassés des lourds Monolithes, les bâtisseurs cherchèrent plus de souplesse. Inspirés par des
-géants
-comme **Netflix** ou **Amazon**, ils créèrent des villages composés de **microservices**.
+géants comme **Netflix** ou **Amazon**, ils créèrent des villages composés de **microservices**.
 
 Chaque maison avait son métier propre, communiquait avec les autres par messages ou par APIs, et pouvait être déployée
 indépendamment. On vit apparaître de nouveaux patterns : l’**API Gateway**, qui jouait le rôle de portier du village ;
 le **Circuit Breaker**, un interrupteur pour couper un service en cas de problème ; et le **Sidecar**, un petit
-compagnon
-chargé de gérer la logistique.
+compagnon chargé de gérer la logistique.
 
 Les langages et outils de cette ère furent **Java Spring Boot**, **Node.js**, **Go**, ainsi que les révolutions
 **Docker** (2013) et **Kubernetes** (2014), qui changèrent la manière de déployer.
@@ -156,11 +169,13 @@ Les microservices apportaient agilité et scalabilité. Mais ils introduisirent 
 coordination devenait difficile, les dépendances explosaient, et l’ensemble du village pouvait se perdre dans une
 bureaucratie de communications.
 
-> Moralité : les microservices offraient la liberté, mais ils faisaient planer le risque d’un chaos organisé.
+> Les microservices offraient la liberté, mais ils faisaient planer le risque d’un chaos organisé.
 
 ---
 
 ## Chapitre IX – Les Magiciens du Nuage (2015–2020)
+
+![chapitre IX.png](https://raw.githubusercontent.com/nicolasvauchenet/cours_architectures_logicielles/refs/heads/main/img/chapitre%20IX.png)
 
 À partir de 2015, les grands magiciens du **Cloud** – **Amazon AWS**, **Microsoft Azure** et **Google Cloud** –
 s’imposèrent comme les nouveaux maîtres des infrastructures.
@@ -174,15 +189,17 @@ disparurent derrière des abstractions de services.
 Le Cloud séduisait par son élasticité, sa rapidité et son coût d’entrée maîtrisé. Mais il posait aussi de nouveaux
 problèmes : dépendance aux fournisseurs, frais parfois imprévisibles, et risque de verrouillage technologique.
 
-> Moralité : la magie du Cloud est puissante, mais elle n’est jamais gratuite.
+> La magie du Cloud est puissante, mais elle n’est jamais gratuite.
 
 ---
 
 ## Chapitre X – L’Ère moderne (2020–…)
 
+![chapitre X.png](https://raw.githubusercontent.com/nicolasvauchenet/cours_architectures_logicielles/refs/heads/main/img/chapitre%20X.png)
+
 Aujourd’hui, le Royaume du Code est devenu une mosaïque. Certains bâtisseurs rénovent leurs vieux **Monolithes**,
-d’autres
-jonglent avec des architectures de **Microservices**, explorent le **Serverless** ou manipulent les **Containers**.
+d’autres jonglent avec des architectures de **Microservices**, explorent le **Serverless** ou manipulent les
+**Containers**.
 
 De nouveaux concepts apparaissent : **Edge Computing**, **intelligence artificielle embarquée**, **Web3**, mais aussi
 des cultures comme **DevOps** et **SRE** (Site Reliability Engineering), qui rapprochent les développeurs et les
@@ -194,5 +211,4 @@ souvent grâce à des outils tels que **Terraform**, **Prometheus**, **Grafana**
 L’histoire continue, et chaque nouvelle génération d’artisans doit apprendre à rester curieuse, adaptable et humble face
 à la complexité croissante du royaume.
 
-> Moralité : le voyage ne s’arrête jamais, et la meilleure arme d’un bâtisseur reste sa capacité à apprendre et à
-> s’adapter.
+> Le voyage ne s’arrête jamais, et la meilleure arme d’un bâtisseur reste sa capacité à apprendre et à s’adapter.
