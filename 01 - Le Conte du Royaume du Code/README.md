@@ -1,5 +1,7 @@
 # Le Conte du Royaume du Code
 
+![conte du royaume du code.png](../img/conte%20du%20royaume%20du%20code.png)
+
 ## Chapitre I – Les temps primitifs (années 40–60)
 
 À l’aube des temps numériques, seuls quelques initiés comprenaient la langue des machines : une suite de `0` et de `1`
