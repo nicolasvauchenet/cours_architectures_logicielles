@@ -1,10 +1,10 @@
 # Le Conte du Royaume du Code
 
-![conte du royaume du code.png](https://raw.githubusercontent.com/nicolasvauchenet/cours_architectures_logicielles/refs/heads/main/img/conte%20du%20royaume%20du%20code.png)
+![conte-du-royaume-du-code.png](https://raw.githubusercontent.com/nicolasvauchenet/cours_architectures_logicielles/refs/heads/main/img/conte-du-royaume-du-code.png)
 
 ## Chapitre I – Les temps primitifs (années 40–60)
 
-![chapitre I.png](https://raw.githubusercontent.com/nicolasvauchenet/cours_architectures_logicielles/refs/heads/main/img/chapitre%20I.png)
+![chapitre I.png](https://raw.githubusercontent.com/nicolasvauchenet/cours_architectures_logicielles/refs/heads/main/img/chapitre-I.png)
 
 À l’aube des temps numériques, seuls quelques initiés comprenaient la langue des machines : une suite de `0` et de `1`
 sans poésie apparente, mais porteuse d’une immense puissance. Les premiers héros, **Alan Turing** avec sa machine
@@ -24,7 +24,7 @@ de temps à jongler avec des registres et des adresses mémoire qu’à concevoi
 
 ## Chapitre II – Le Bâtisseur C (années 70)
 
-![chapitre II.png](https://raw.githubusercontent.com/nicolasvauchenet/cours_architectures_logicielles/refs/heads/main/img/chapitre%20II.png)
+![chapitre II.png](https://raw.githubusercontent.com/nicolasvauchenet/cours_architectures_logicielles/refs/heads/main/img/chapitre-II.png)
 
 Dans les années 70, un artisan visionnaire, **Dennis Ritchie**, inventa le langage **C** au sein des laboratoires Bell.
 Son compagnon **Ken Thompson** l’adopta aussitôt pour ériger **UNIX** (1972), un système d’exploitation appelé à devenir
@@ -45,7 +45,7 @@ s’écrouler le château entier.
 
 ## Chapitre III – L’Ordre des Objets (années 80–90)
 
-![chapitre III.png](https://raw.githubusercontent.com/nicolasvauchenet/cours_architectures_logicielles/refs/heads/main/img/chapitre%20III.png)
+![chapitre III.png](https://raw.githubusercontent.com/nicolasvauchenet/cours_architectures_logicielles/refs/heads/main/img/chapitre-III.png)
 
 Au tournant des années 80, des artisans rêvèrent d’un monde plus organisé. **Alan Kay** parla de **Smalltalk**, un
 langage où des “objets” pouvaient communiquer entre eux comme des êtres vivants. Chaque objet avait une identité, des
@@ -69,7 +69,7 @@ l’excès de hiérarchies, les classes trop nombreuses et parfois un code deven
 
 ## Chapitre IV – Le Cartographe UML (années 90)
 
-![chapitre IV.png](https://raw.githubusercontent.com/nicolasvauchenet/cours_architectures_logicielles/refs/heads/main/img/chapitre%20IV.png)
+![chapitre IV.png](https://raw.githubusercontent.com/nicolasvauchenet/cours_architectures_logicielles/refs/heads/main/img/chapitre-IV.png)
 
 Alors que les citadelles de code grandissaient, il devint de plus en plus difficile de s’y retrouver. Trois sages,
 **Grady Booch**, **James Rumbaugh** et **Ivar Jacobson**, décidèrent d’unifier leurs méthodes et créèrent en 1997
@@ -90,7 +90,7 @@ les lisait. Certains projets croulèrent sous le poids de la documentation.
 
 ## Chapitre V – Les Châteaux Monolithes (années 90–2000)
 
-![chapitre V.png](https://raw.githubusercontent.com/nicolasvauchenet/cours_architectures_logicielles/refs/heads/main/img/chapitre%20V.png)
+![chapitre V.png](https://raw.githubusercontent.com/nicolasvauchenet/cours_architectures_logicielles/refs/heads/main/img/chapitre-V.png)
 
 À mesure que l’industrie grandissait, les entreprises réclamèrent des systèmes toujours plus vastes : **ERP**, **CRM**,
 ou encore des sites d’e-commerce. On bâtit alors des **Monolithes** : de gigantesques châteaux regroupant toutes les
@@ -119,7 +119,7 @@ l’ensemble de l’édifice.
 
 ## Chapitre VI – Les Patterns des Sages (1994 et après)
 
-![chapitre VI.png](https://raw.githubusercontent.com/nicolasvauchenet/cours_architectures_logicielles/refs/heads/main/img/chapitre%20VI.png)
+![chapitre VI.png](https://raw.githubusercontent.com/nicolasvauchenet/cours_architectures_logicielles/refs/heads/main/img/chapitre-VI.png)
 
 En 1994, quatre conteurs surnommés le **Gang of Four** – **Erich Gamma**, **Richard Helm**, **Ralph Johnson** et
 **John Vlissides** – publièrent le grimoire des **Design Patterns**.
@@ -140,7 +140,7 @@ compliqua inutilement leurs projets.
 
 ## Chapitre VII – La Sagesse du Domaine (2003)
 
-![chapitre VII.png](https://raw.githubusercontent.com/nicolasvauchenet/cours_architectures_logicielles/refs/heads/main/img/chapitre%20VII.png)
+![chapitre VII.png](https://raw.githubusercontent.com/nicolasvauchenet/cours_architectures_logicielles/refs/heads/main/img/chapitre-VII.png)
 
 En 2003, un nouveau maître, **Eric Evans**, publia un ouvrage bleu intitulé *Domain-Driven Design*. Sa philosophie était
 simple : l’architecture devait servir le métier, et non l’inverse.
@@ -159,7 +159,7 @@ systèmes.
 
 ## Chapitre VIII – Les Villages de Microservices (années 2010)
 
-![chapitre VIII.png](https://raw.githubusercontent.com/nicolasvauchenet/cours_architectures_logicielles/refs/heads/main/img/chapitre%20VIII.png)
+![chapitre VIII.png](https://raw.githubusercontent.com/nicolasvauchenet/cours_architectures_logicielles/refs/heads/main/img/chapitre-VIII.png)
 
 Dans les années 2010, lassés des lourds Monolithes, les bâtisseurs cherchèrent plus de souplesse. Inspirés par des
 géants comme **Netflix** ou **Amazon**, ils créèrent des villages composés de **microservices**.
@@ -182,7 +182,7 @@ bureaucratie de communications.
 
 ## Chapitre IX – Les Magiciens du Nuage (2015–2020)
 
-![chapitre IX.png](https://raw.githubusercontent.com/nicolasvauchenet/cours_architectures_logicielles/refs/heads/main/img/chapitre%20IX.png)
+![chapitre IX.png](https://raw.githubusercontent.com/nicolasvauchenet/cours_architectures_logicielles/refs/heads/main/img/chapitre-IX.png)
 
 À partir de 2015, les grands magiciens du **Cloud** – **Amazon AWS**, **Microsoft Azure** et **Google Cloud** –
 s’imposèrent comme les nouveaux maîtres des infrastructures.
@@ -202,7 +202,7 @@ problèmes : dépendance aux fournisseurs, frais parfois imprévisibles, et risq
 
 ## Chapitre X – L’Ère moderne (2020–…)
 
-![chapitre X.png](https://raw.githubusercontent.com/nicolasvauchenet/cours_architectures_logicielles/refs/heads/main/img/chapitre%20X.png)
+![chapitre X.png](https://raw.githubusercontent.com/nicolasvauchenet/cours_architectures_logicielles/refs/heads/main/img/chapitre-X.png)
 
 Aujourd’hui, le Royaume du Code est devenu une mosaïque. Certains bâtisseurs rénovent leurs vieux **Monolithes**,
 d’autres jonglent avec des architectures de **Microservices**, explorent le **Serverless** ou manipulent les
