@@ -93,18 +93,25 @@ les lisait. Certains projets croulèrent sous le poids de la documentation.
 ![chapitre V.png](https://raw.githubusercontent.com/nicolasvauchenet/cours_architectures_logicielles/refs/heads/main/img/chapitre%20V.png)
 
 À mesure que l’industrie grandissait, les entreprises réclamèrent des systèmes toujours plus vastes : **ERP**, **CRM**,
-sites d’e-commerce. On bâtit alors des **Monolithes** : de gigantesques châteaux regroupant toutes les fonctions sous un
-même toit.
+ou encore des sites d’e-commerce. On bâtit alors des **Monolithes** : de gigantesques châteaux regroupant toutes les
+fonctions sous un même toit, déployés en un seul bloc.
 
-Les architectes proposèrent des structures pour mieux organiser ces édifices. L’**architecture en couches** séparait
-clairement la présentation, la logique métier et les données. L’architecture **n-tiers**, souvent en trois parties (UI,
-logique et base de données), devint un standard.
+Un monolithe n’était cependant pas forcément un tas informe de code. Les architectes de l’époque cherchèrent à y mettre
+de l’ordre en proposant des **architectures organisées en couches**. L’**architecture en couches (layered)** séparait
+clairement la présentation, la logique métier et les données. L’**architecture n-tiers**, souvent en trois parties
+(UI, logique et base de données), devint un standard largement enseigné et appliqué.
+
+En pratique, cela signifiait que l’on déployait toujours **une seule application**, mais que son code interne était
+mieux structuré. La couche de présentation (JSP, ASPX, servlets, etc.) communiquait avec une couche métier (EJB, Spring,
+.NET), qui elle-même s’appuyait sur une couche d’accès aux données (JDBC, ADO.NET, etc.).
 
 Les langages phares de cette époque furent **Java (J2EE)**, **C# .NET**, **PHP** (1995), **Perl** et **Ruby**. Des
-frameworks comme **Spring** (2003) ou **ASP.NET** structurèrent davantage la manière de construire.
+frameworks comme **Spring** (2003) ou **ASP.NET** vinrent renforcer ces structures et standardiser la manière de
+construire les applications.
 
-L’avantage des Monolithes résidait dans leur cohérence et dans la simplicité d’un déploiement unique. Mais leur rigidité
-était un problème majeur : modifier une seule salle imposait souvent de rénover l’ensemble du château.
+L’avantage des Monolithes résidait dans leur **cohérence interne** et dans la **simplicité d’un déploiement unique**.
+Mais leur rigidité restait un problème majeur : modifier une seule salle du château imposait souvent de rénover
+l’ensemble de l’édifice.
 
 > Le monolithe était fort et stable, mais manquait cruellement de souplesse.
 
