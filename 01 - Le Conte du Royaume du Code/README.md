@@ -1,14 +1,21 @@
 # Le Conte du Royaume du Code
 
-![conte-du-royaume-du-code.png](https://raw.githubusercontent.com/nicolasvauchenet/cours_architectures_logicielles/refs/heads/main/img/conte-du-royaume-du-code.png)
+#### Rédigé en l'an de grâce 2025 par le conteur **Nicolas Vauché**.
 
-### Rédigé en l'an de grâce 2025 par le conteur **Nicolas Vauché**.
+![conte-du-royaume-du-code.png](https://raw.githubusercontent.com/nicolasvauchenet/cours_architectures_logicielles/refs/heads/main/img/conte-du-royaume-du-code.png)
 
 > C’est l’histoire d’un royaume étrange, bâti non de pierre mais de lignes de code, où des bâtisseurs s’affrontent et
 > s’allient au fil des âges. On y voit naître des cabanes de bits, des châteaux monolithes, des villages de
 > microservices, et des marchés bruyants de Cloud. Des batailles éclatent, des pestes numériques ravagent les cités, et
-> des prophètes annoncent l’avènement du domaine et de l’agilité. Aujourd’hui, le royaume est une mosaïque mouvante,
-> suspendue entre les charmes puissants du Cloud et les promesses mystérieuses du quantique.
+> des prophètes annoncent l’avènement du domaine et de l’agilité.
+>
+> Aujourd’hui, le royaume est une mosaïque mouvante, suspendue entre les charmes puissants du Cloud et les promesses
+> mystérieuses du quantique.
+>
+> Plongez dans cette épopée, où chaque chapitre est une ère, chaque héros un architecte, et chaque ligne de code une
+> pierre de ce vaste édifice.
+>
+> Bienvenue dans le **Conte du Royaume du Code**.
 
 ---
 
