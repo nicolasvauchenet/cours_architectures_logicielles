@@ -1,6 +1,6 @@
 # Le Conte du Royaume du Code
 
-#### Rédigé en l'an de grâce 2025 par le conteur **Nicolas Vauché**.
+Rédigé en l'an de grâce 2025 par le conteur **Nicolas Vauché**.
 
 ![conte-du-royaume-du-code.png](https://raw.githubusercontent.com/nicolasvauchenet/cours_architectures_logicielles/refs/heads/main/img/conte-du-royaume-du-code.png)
 
@@ -121,3 +121,11 @@ DevOps et SRE réorganisent les guildes. Les bâtisseurs deviennent aussi philos
 À l’horizon : Google Sycamore, IBM Q, Microsoft Q#. Des machines de qubits instables mais prometteuses. Le chiffrement
 tremble. Les bâtisseurs pressentent une révolution où les lois de la physique elles-mêmes seront réécrites. Une nouvelle
 mer inconnue, plus mystérieuse encore que celle des premiers temps.
+
+---
+
+## Épilogue – Le Cycle sans Fin
+
+Le royaume du code est en perpétuelle évolution. Chaque ère apporte ses héros, ses batailles, ses alliances. Les
+bâtisseurs d’aujourd’hui écrivent les légendes de demain. Le conte continue, car le code, comme la vie, est un flux
+incessant de création et de transformation.
