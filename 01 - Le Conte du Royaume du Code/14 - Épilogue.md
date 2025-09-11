@@ -20,8 +20,8 @@ Les vieux grimoires COBOL côtoient les incantations Kubernetes, les serveurs de
 que des IA écrivent des vers, et les bâtisseurs jonglent entre sobriété et expansion, entre pragmatisme et rêves
 d’infini.
 
-Et pourtant, à travers cette diversité et ce tumulte, demeure une constante : le Royaume du Code est avant tout une *
-*aventure humaine**.  
+Et pourtant, à travers cette diversité et ce tumulte, demeure une constante : le Royaume du Code est avant tout une
+**aventure humaine**.  
 Un lieu où la curiosité, la collaboration et la créativité forgent les outils qui transforment le monde.  
 Un royaume sans frontières, toujours en expansion, où chaque nouvelle génération de bâtisseurs reprend le flambeau des
 anciens pour l’avancer un peu plus loin.
