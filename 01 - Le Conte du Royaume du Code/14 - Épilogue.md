@@ -1,7 +1,5 @@
 # Épilogue – Le Royaume sans fin
 
-![epilogue.png](https://raw.githubusercontent.com/nicolasvauchenet/cours_architectures_logicielles/refs/heads/main/img/epilogue.png)
-
 Le Royaume du Code naquit humble, dans les ténèbres des laboratoires de guerre, avec ses cabanes de bits fragiles et ses
 monstres de cuivre et de tubes à vide.  
 Puis vinrent les bâtisseurs du langage C, les rêveurs des Objets, les cartographes d’UML et les seigneurs des
@@ -31,3 +29,5 @@ anciens pour l’avancer un peu plus loin.
 > Ainsi s’achève ce conte… ou plutôt, il se poursuit, car le Royaume du Code n’a pas de fin.  
 > Tant qu’il y aura des rêveurs pour écrire, des artisans pour bâtir, et des philosophes pour questionner, ses murailles
 > se déplaceront toujours, repoussant les limites de l’imaginable.
+
+![epilogue.png](https://raw.githubusercontent.com/nicolasvauchenet/cours_architectures_logicielles/refs/heads/main/img/epilogue.png)
