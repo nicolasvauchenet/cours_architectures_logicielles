@@ -1,121 +1,102 @@
 # Chapitre III – L’Ordre des Objets (années 80–90)
 
-![chapitre III.png](https://raw.githubusercontent.com/nicolasvauchenet/cours_architectures_logicielles/refs/heads/main/img/chapitre-III.png)
+![chapitre-III.png](https://raw.githubusercontent.com/nicolasvauchenet/cours_architectures_logicielles/refs/heads/main/img/chapitre-III.png)
 
-Au tournant des années 80, un vent d’organisation souffla sur l’informatique. Les bâtisseurs de code, fatigués de
-manipuler des structures linéaires et rigides, rêvèrent d’un monde où les programmes seraient peuplés de petites entités
-autonomes, dialoguant entre elles comme des citoyens dans une cité bien ordonnée. Ces entités reçurent un nom qui allait
-marquer durablement l’histoire : **les objets**.
+## La vision d’Alan Kay
 
----
+Au tournant des années 80, un vent d’organisation souffla sur le Royaume du Code.  
+Les bâtisseurs, fatigués de manier des structures rigides et linéaires, rêvèrent d’un monde plus souple, peuplé non de
+lignes impersonnelles, mais d’entités vivantes capables de dialoguer. Ce rêve prit corps grâce à **Alan Kay**, un
+visionnaire du **Xerox PARC**, qui imagina le code comme une **cité d’objets**.
 
-## Alan Kay et la philosophie des objets
-
-Le visionnaire **Alan Kay**, travaillant au Xerox PARC, forgea dès le début des années 70 l’idée de **Smalltalk**.  
-Son intuition était simple et puissante : un programme devrait ressembler à une société d’agents. Chaque agent — ou
-objet — possède une **identité**, des **responsabilités** et des **comportements**, et il communique avec les autres par
-des messages.
-
-Smalltalk, apparu en **1980**, fut plus qu’un langage : c’était un laboratoire d’idées. Il introduisit la programmation
-orientée objet (POO) comme une philosophie. Kay lui-même disait :
+Chaque objet y serait comme un citoyen : doté d’une identité, de responsabilités, d’un savoir-faire propre, et capable
+de communiquer avec ses voisins par de simples messages. En **1980**, son langage **Smalltalk** vit le jour et incarna
+cette philosophie nouvelle : non plus manipuler directement la pierre brute de la mémoire, mais bâtir une société
+structurée de petites maisons autonomes. Kay aimait à dire :
 
 > « L’essence de l’objet est de combiner le comportement et l’état, et de masquer les détails inutiles. »
 
-Dans les laboratoires de Palo Alto, les chercheurs manipulaient déjà des interfaces graphiques à la souris sur des
-machines Xerox Alto, programmées en Smalltalk — préfigurant les ordinateurs personnels modernes.
+Dans les laboratoires, les chercheurs jouaient déjà avec des interfaces graphiques et des souris, sur des machines
+Xerox Alto programmées en Smalltalk. Ces inventions annonçaient la révolution des ordinateurs personnels.
 
 ---
 
-## Bjarne Stroustrup et la naissance de C++
+## Le forgeron Stroustrup et ses forteresses
 
-Pendant ce temps, à **Bell Labs**, **Bjarne Stroustrup** cherchait à enrichir la puissance du langage C. En **1985**, il
-publia la première version de **C++**, qui introduisait les classes, l’héritage et les objets, tout en conservant la
-vitesse et le contrôle du C.
+Pendant ce temps, dans un autre atelier du royaume, **Bjarne Stroustrup** travaillait chez **Bell Labs**.  
+Il admirait la puissance du langage C, mais il rêvait d’y ajouter des murs mieux organisés, des tours et des remparts
+plus sophistiqués. En **1985**, il publia **C++**, qui greffa aux fondations du C les notions d’objets, de classes et
+d’héritage.
 
-C++ fut adopté massivement dans l’industrie, en particulier pour le développement de systèmes critiques, de logiciels
-scientifiques et de jeux vidéo. Des moteurs graphiques aux bases de données, C++ devint le cheval de bataille de toute
-une génération.
-
-> « C++ rend les structures grandes et complexes plus faciles à comprendre et à maintenir. »  
-> — Bjarne Stroustrup, *The C++ Programming Language* (1985)
-
-Mais avec cette puissance venait la complexité. La gestion de la mémoire restait manuelle, et la syntaxe, lourde,
-effrayait parfois les nouveaux venus.
+C++ se répandit comme une architecture de forteresses robustes, capables d’abriter des systèmes critiques, des moteurs
+scientifiques et les premiers grands jeux vidéo. La discipline était rude : la gestion de la mémoire restait manuelle,
+et la complexité du langage effrayait les novices. Mais pour les bâtisseurs aguerris, C++ devint l’arme idéale pour
+ériger des citadelles logicielles.
 
 ---
 
-## James Gosling et la promesse de Java
+## Le magicien Gosling et la promesse de portabilité
 
-En **1995**, chez Sun Microsystems, **James Gosling** et son équipe inventèrent **Java**. Le slogan fit rêver les
-développeurs : *“Write once, run anywhere”*. Grâce à sa **machine virtuelle (JVM)**, un programme Java pouvait être
-écrit une fois et exécuté sur n’importe quelle machine, du PC au serveur, sans modification.
+En **1995**, au sein de **Sun Microsystems**, un mage du nom de **James Gosling** présenta un nouveau sortilège : le
+langage **Java**. Son slogan fit rêver : *“Write once, run anywhere”*. Grâce à la **Machine Virtuelle Java (JVM)**,
+un programme pouvait voyager de machine en machine, du PC au serveur, sans perdre sa magie.
 
-Java apportait aussi une **gestion automatique de la mémoire** via le *garbage collector*, réduisant les erreurs liées
-aux pointeurs qui hantaient C et C++. Rapidement, Java devint le langage des applications d’entreprise, des systèmes
-bancaires et des premiers serveurs web dynamiques.
-
-Anecdote : le langage devait initialement s’appeler *Oak*, en référence à un chêne devant le bureau de Gosling. Mais le
-nom était déjà pris ; l’équipe choisit finalement “Java”, inspiré du café indonésien qu’ils buvaient en continu.
+Java introduisit aussi un avantage majeur : le **ramasse-miettes** (garbage collector), qui libérait automatiquement la
+mémoire et protégeait les bâtisseurs des pires cauchemars du C et du C++. En quelques années, Java s’imposa dans les
+banques, les entreprises et les premiers serveurs web dynamiques. Le royaume avait trouvé un langage qui promettait à
+la fois ordre et portabilité.
 
 ---
 
-## Les trois piliers de l’objet
+## Les chartes de la cité-objet
 
-La programmation orientée objet se résumait à trois principes cardinaux :
+Avec cette puissance nouvelle, le risque du chaos guettait. Les cités-objets prospéraient, mais sans règles, elles
+risquaient de se transformer en labyrinthes bureaucratiques.  
+Des penseurs proposèrent donc des **chartes** pour éviter la décadence :
 
-1. **Encapsulation** : cacher l’intérieur des objets et ne révéler qu’une interface publique, comme une boîte noire dont
-   on ne connaît que les boutons.
-2. **Héritage** : organiser les objets en familles et permettre à une classe “enfant” de réutiliser les comportements
-   d’une classe “parent”.
-3. **Polymorphisme** : un même message envoyé à différents objets peut produire des réactions différentes, comme une
-   même question posée à plusieurs personnes qui donneront chacune une réponse unique.
+- **KISS (Keep It Simple, Stupid)** : emprunté à l’aéronautique dans les années 60, ce principe rappelle que la
+  simplicité est l’arme la plus sûre contre la complexité.
+- **Law of Demeter (1987, Ian Holland)** : surnommée “Don’t talk to strangers”, cette loi interdisait aux objets de
+  parler trop loin dans la hiérarchie, pour éviter les dépendances tentaculaires.
+- **Open/Closed Principle (1988, Bertrand Meyer)** : un édifice doit être ouvert à l’extension mais fermé à la
+  modification, afin d’évoluer sans s’effondrer.
 
-Ces principes donnaient aux logiciels une modularité et une réutilisabilité inédites. On pouvait désormais bâtir des
-**bibliothèques réutilisables** et des **cadres de développement** (frameworks), pierre angulaire des décennies
-suivantes.
-
----
-
-## Les premières règles de conduite
-
-Avec la puissance nouvelle de la POO vinrent aussi ses excès : hiérarchies trop profondes, classes tentaculaires,
-abstractions en cascade. Les pionniers comprirent vite qu’il fallait fixer des règles de bon sens, comme une charte pour
-éviter que la cité des objets ne devienne un labyrinthe.
-
-- **KISS (Keep It Simple, Stupid)** : emprunté à l’aéronautique (années 60), ce principe rappelait aux programmeurs que
-  la simplicité reste la meilleure arme contre la complexité. Trop de classes et d’héritages, et le code se change en
-  bureaucratie logicielle.
-- **Law of Demeter (1987, Ian Holland)** : surnommée *“Don’t talk to strangers”*, elle recommandait qu’un objet parle
-  uniquement à ses proches, pas à des inconnus via de longues chaînes d’appels. L’objectif : limiter le couplage et
-  préserver l’autonomie de chaque objet.
-- **Open/Closed Principle (1988, Bertrand Meyer)** : un logiciel doit être *ouvert à l’extension, mais fermé à la
-  modification*. Autrement dit, on doit pouvoir enrichir une classe sans casser son code existant, un idéal incarné dans
-  le langage **Eiffel**.
-
-Ces règles étaient encore des balises isolées, mais elles annonçaient une formalisation croissante. Elles préfiguraient
-le mouvement qui, une décennie plus tard, mènerait à l’acronyme **SOLID** et à toute une discipline de design logiciel.
+Ces règles, encore dispersées, annonçaient les futures constitutions du royaume, qui prendraient plus tard la forme de
+SOLID et des bonnes pratiques modernes.
 
 ---
 
 ## Les promesses et les dérives
 
-Si la POO apportait de l’ordre, elle pouvait aussi devenir une **bureaucratie numérique**. Les développeurs, grisés par
-les hiérarchies, créèrent parfois des arbres de classes si profonds que personne n’osait plus y toucher. Les projets
-s’enlisaient dans des forêts d’abstractions, où une simple modification nécessitait de remplir des formulaires
-conceptuels à chaque étage.
+L’Ordre des Objets apporta modularité, réutilisabilité et clarté. Les bâtisseurs purent enfin composer leurs édifices
+comme des villes médiévales bien organisées : chaque maison-objet avec ses portes (méthodes publiques), ses murs
+(encapsulation), ses familles (héritage), et la possibilité d’interagir librement (polymorphisme).
 
-Certains critiques dirent que la POO, mal utilisée, produisait du “code spaghetti orienté objet”, où la réutilisation
-promise se transformait en rigidité.
+Mais dans leur enthousiasme, certains abusèrent de la bureaucratie. Ils construisirent des hiérarchies trop profondes,
+des classes tentaculaires, et des systèmes où la moindre modification exigeait de remplir une avalanche de formulaires
+conceptuels. Le royaume connut alors une étrange maladie : le **“spaghetti orienté objet”**, où les promesses de
+modularité se changeaient en rigidité étouffante.
 
 ---
 
-## Métaphore finale
+## Les avantages et limites de l’époque
 
-On peut voir cette époque comme l’apparition des **villes médiévales fortifiées**. Chaque objet est une maison avec ses
-portes (méthodes publiques) et ses murs (encapsulation). Les familles (héritage) organisent la cité, et les habitants
-interagissent librement (polymorphisme).
+L’avènement de l’objet marqua une étape décisive.  
+Pour la première fois, les logiciels pouvaient être conçus comme des ensembles modulaires, réutilisables et
+maintenables. Les frameworks et bibliothèques naissantes posèrent les bases d’une industrie plus professionnelle, où
+les bâtisseurs n’avaient pas à tout réinventer à chaque projet.
 
-Mais comme dans toute cité trop administrée, le risque est grand que les habitants passent plus de temps à respecter les
-procédures qu’à bâtir des ponts.
+Mais cette ère avait ses limites. La complexité des langages comme C++ rebutait les novices, et même Java, malgré ses
+promesses, n’échappait pas à la lourdeur. Trop d’objets, trop d’abstractions, et les projets devenaient de véritables
+bureaucraties numériques. Le rêve d’une cité idéale pouvait rapidement tourner au cauchemar administratif.
 
-> Les objets apportaient de l’ordre, mais risquaient de transformer les projets en bureaucraties compliquées.
+---
+
+## Moralité
+
+L’Ordre des Objets fut comme l’édification de cités médiévales fortifiées : organisées, protectrices, mais parfois
+étranglées par leurs propres murs. Les objets donnèrent au royaume un nouvel ordre, mais rappelèrent aussi un danger
+éternel : l’excès de règles peut paralyser autant que l’absence de règles.
+
+> Les objets apportèrent l’ordre et la modularité, mais ils risquaient de transformer le code en une bureaucratie
+> inextricable.

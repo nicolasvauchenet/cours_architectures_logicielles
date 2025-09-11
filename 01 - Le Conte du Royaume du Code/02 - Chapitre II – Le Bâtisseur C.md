@@ -1,89 +1,103 @@
 # Chapitre II – Le Bâtisseur C (années 70)
 
-![chapitre II.png](https://raw.githubusercontent.com/nicolasvauchenet/cours_architectures_logicielles/refs/heads/main/img/chapitre-II.png)
-
-Les années 70 furent marquées par une effervescence intellectuelle. Dans un coin discret des laboratoires **Bell Labs**,
-une poignée de chercheurs façonna un langage qui allait devenir la charpente invisible de l’informatique moderne.  
-L’artisan en chef s’appelait **Dennis Ritchie**. Son outil : le **langage C**.
-
----
+![chapitre-II.png](https://raw.githubusercontent.com/nicolasvauchenet/cours_architectures_logicielles/refs/heads/main/img/chapitre-II.png)
 
 ## La forge de Bell Labs
 
-En 1969, Ken Thompson avait déjà conçu un premier système d’exploitation nommé **UNIX**. Il l’avait écrit en **B**, un
-langage de programmation minimaliste dérivé de **BCPL**. Mais ce langage, frêle esquisse, manquait de muscles. C’est là
-que Ritchie intervint : il forgea **C**, une évolution qui combinait puissance et expressivité.
+Les années 70 virent apparaître une véritable forge intellectuelle au sein des laboratoires **Bell Labs**.  
+Cet endroit, à la fois temple et atelier, réunit des figures comme **Ken Thompson**, **Dennis Ritchie** et plus tard
+**Brian Kernighan**. On y inventait sans relâche : le système d’exploitation UNIX, les premiers réseaux téléphoniques
+numérisés, et surtout, un langage destiné à devenir la pierre angulaire du Royaume du Code : le **C**.
 
-En **1972**, UNIX fut réécrit en C. C’était une révolution : jusque-là, les systèmes d’exploitation étaient écrits en
-assembleur, et donc intimement liés au matériel sur lequel ils tournaient. Réécrire un OS dans un langage de haut niveau
-ouvrait la voie à une idée audacieuse : **la portabilité**. UNIX pouvait désormais voyager d’une machine à l’autre,
-comme une caravane traversant le désert, transportant son savoir dans ses bagages.
+L’histoire commença avec un prédécesseur fragile, le langage **B**, conçu par Thompson en 1969 pour écrire UNIX. Mais B
+manquait de puissance et de types adaptés : il ne pouvait porter de lourds édifices. Ritchie le reforgea, et en **1972**
+naquit C, un langage assez proche du métal pour contrôler la machine, mais assez abstrait pour être portable d’une
+architecture à l’autre. UNIX fut réécrit en C, un acte fondateur qui allait bouleverser l’équilibre du royaume.
+
+---
+
+## La révolution silencieuse
+
+Jusqu’alors, les systèmes d’exploitation étaient liés corps et âme à leur matériel.  
+Avec C, UNIX devint un voyageur. Il pouvait passer d’un processeur à l’autre, d’un constructeur à l’autre, sans perdre
+son essence. Cette portabilité changea tout : elle annonçait l’avènement d’une ère où les logiciels seraient plus
+importants que les machines qui les hébergeaient.
+
+En parallèle, l’informatique commença à sortir des laboratoires militaires. Dans les universités, dans certaines
+entreprises, UNIX et C circulaient librement, portés par une culture de partage et d’expérimentation. Cette ouverture
+contraste avec le secret des années 50 et 60 : c’était le début de l’open source avant l’heure.
 
 ---
 
 ## Les compagnons de route
 
-- **Ken Thompson**, déjà père d’UNIX, adopta immédiatement C pour développer ses outils et solidifier l’édifice.
-- **Brian Kernighan**, écrivain technique talentueux, comprit qu’un langage sans livre est comme une cathédrale sans
-  vitraux : invisible aux yeux des profanes. Avec Ritchie, il publia en **1978** *The C Programming Language*, connu
-  simplement comme *K&R*. Ce livre, sobre et clair, devint la Bible des programmeurs.
-
-> « C est à la fois puissant et dangereux : il vous donne le contrôle total, mais il exige que vous sachiez ce que vous
-> faites. »  
-> — Brian Kernighan, entretien (1981)
+Ritchie, homme modeste et discret, n’aimait pas les projecteurs. Mais ses compagnons assurèrent la diffusion du C.  
+**Brian Kernighan**, pédagogue, publia avec lui en **1978** *The C Programming Language*, surnommé le *K&R*. Ce manuel,
+clair et concis, devint un rite initiatique : nul ne pouvait se dire bâtisseur sans l’avoir lu.  
+Dans les couloirs, un adage circulait : *“Si vous ne comprenez pas le K&R, vous n’êtes pas encore prêt pour le royaume
+du C.”*
 
 ---
 
-## La révolution de la portabilité
+## Les usages et l’expansion
 
-L’impact de C fut immédiat. Des projets entiers basculèrent vers ce langage :
+Le C s’imposa rapidement dans des domaines stratégiques :
 
-- Les systèmes d’exploitation, avec UNIX en tête, mais aussi plus tard **Windows NT** (dont une grande partie du noyau
-  fut écrite en C).
-- Les compilateurs : écrire un compilateur en C permettait de créer une chaîne capable de s’auto-reproduire sur de
-  nouvelles machines.
-- Les bases de données : **Oracle** (1977) et **Ingres**, puis **PostgreSQL** (dès 1986, issu du projet Postgres de
-  Michael Stonebraker) virent le jour grâce à C.
+- **Systèmes d’exploitation** : UNIX, mais aussi plus tard Windows NT et le noyau **Linux**.
+- **Bases de données** : **Oracle** (1977), **Ingres**, puis **PostgreSQL** (1986).
+- **Télécommunications** : une part essentielle des réseaux fut codée en C.
+- **Jeux vidéo et graphismes** : des moteurs 2D/3D aux consoles, C devint l’arme des créateurs.
+- **Systèmes embarqués** : dès les années 70, on utilisa C dans les microcontrôleurs et l’électronique industrielle.
 
-C’est comme si le langage avait offert aux bâtisseurs une **pierre universelle**, pouvant être taillée et ajustée à
-n’importe quel chantier.
+En quelques années, C devint un ciment industriel. Là où Fortran parlait aux savants et COBOL aux administrateurs, C
+s’adressait aux bâtisseurs d’infrastructures.
 
 ---
 
 ## La puissance et ses périls
 
-La force de C résidait dans son efficacité : les programmes étaient rapides, compacts, et offraient un contrôle précis
-sur la mémoire. On pouvait manipuler des **pointeurs** pour accéder directement à n’importe quelle zone mémoire, comme
-un architecte pouvant toucher chaque pierre du château.
+Mais cette puissance cachait des périls.  
+Le C offrait aux bâtisseurs une liberté immense : manipuler directement la mémoire, écrire du code rapide et compact,
+toucher chaque pierre du château. Mais cette liberté était sans garde-fous.  
+Un pointeur mal utilisé pouvait faire s’écrouler l’édifice entier. Une fuite mémoire pouvait transformer une application
+en gouffre insatiable. La discipline et la rigueur devinrent des vertus cardinales.
 
-Mais ce don était une arme à double tranchant. La moindre erreur – un pointeur mal initialisé, une zone mémoire mal
-libérée – pouvait provoquer l’effondrement complet du programme. Là où les langages plus abstraits mettaient des
-garde-fous, C confiait au développeur une liberté totale. La robustesse ne venait pas du langage, mais de la *
-*discipline
-et de la rigueur** de ceux qui l’utilisaient.
-
-> « C combine la puissance de l’assembleur avec la commodité… de l’assembleur. »  
-> — dicton humoristique de l’époque
+> « C est à la fois puissant et dangereux : il vous donne le contrôle total, mais il exige que vous sachiez ce que vous
+> faites. »  
+> — Brian Kernighan, 1981
 
 ---
 
-## Anecdotes et héritage
+## Les héritiers et l’héritage
 
-On raconte qu’au début des années 70, dans les couloirs des Bell Labs, un jeune programmeur demanda pourquoi Ritchie
-avait appelé son langage “C”. La réponse fut simple : parce qu’il venait après “B”. Une explication modeste, presque
-ironique, pour un outil qui allait pourtant fonder des empires numériques.
+Très vite, des héritiers du C apparurent : **C++** (1985), qui ajouta les objets, ou **Objective-C** (1984), qui maria C
+avec Smalltalk. Tous gardèrent la syntaxe et la philosophie de leur ancêtre.  
+Même les langages modernes — **Java**, **C#**, **Go**, **Rust** — portent dans leurs gènes l’empreinte de C.
 
-Aujourd’hui encore, derrière nos navigateurs modernes et nos applications mobiles, le langage C se cache comme une
-fondation silencieuse. Les noyaux Linux, Windows, macOS, ainsi que des moteurs critiques comme **Git**, **MySQL** ou
-**Python** lui doivent leur existence.
+Aujourd’hui encore, des décennies plus tard, C règne dans l’ombre : noyaux de systèmes, compilateurs, bases de données,
+firmwares d’objets connectés. Le bâtisseur Ritchie, disparu en 2011, reste honoré comme l’un des plus grands maîtres du
+royaume.
 
 ---
 
-## Métaphore finale
+## Les avantages et limites de l’époque
 
-Si les programmes des années 40–60 étaient des cabanes de fortune dressées dans les clairières, le langage C fut le
-premier **outil de maçonnerie véritable**. Avec lui, on pouvait bâtir des châteaux solides, portables, capables de
-résister au temps. Mais ces pierres taillées exigeaient des mains habiles : mal posées, elles pouvaient faire s’écrouler
-tout l’édifice.
+L’avènement de C marqua une rupture.  
+Pour la première fois, un langage conjuguait performance et portabilité. Les logiciels purent voyager, se répliquer et
+vivre indépendamment du matériel. C offrit aux bâtisseurs un vocabulaire commun et durable, ce qui fit naître une
+communauté internationale de programmeurs.
 
-> **C donna la robustesse, mais exigea discipline et rigueur.**
+Mais ce pouvoir avait ses limites. C exigeait une vigilance constante : la liberté offerte pouvait conduire au chaos.  
+Il restait difficile à maîtriser pour les novices, et les erreurs de mémoire rendaient les systèmes fragiles. Enfin, son
+succès engendra parfois une standardisation excessive : tout le monde voulait du C, même pour des tâches où d’autres
+outils auraient suffi.
+
+---
+
+## Moralité
+
+Le C fut le premier véritable outil de maçonnerie du Royaume du Code, capable de bâtir des cathédrales logicielles
+solides et transmissibles. Mais comme tout outil trop puissant, il demandait une main ferme et disciplinée.
+
+> C ouvrit les portes de la portabilité et du progrès, mais rappela aussi que la liberté sans rigueur conduit à
+> l’effondrement.
